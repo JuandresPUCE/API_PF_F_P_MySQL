@@ -13,6 +13,7 @@ def home():
 
 @instituciones_publicas.route('/instituciones_publicas/listar')
 def get():
+    
     return "listar institucion_publicas"
 
 @instituciones_publicas.route('/instituciones_publicas/insertar', methods=['POST'])

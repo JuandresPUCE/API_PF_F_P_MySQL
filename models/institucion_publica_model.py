@@ -3,7 +3,7 @@
 from utils.db import db
 
 class InstitucionPublica(db.Model):
-    __tablename__ = 'instituciones_publicas'
+    __tablename__ = 'institucion_publica'
 
     institucion_id = db.Column(db.Integer, primary_key=True, nullable=False)
     institucion = db.Column(db.String(255), nullable=False)
